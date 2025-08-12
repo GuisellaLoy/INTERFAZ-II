@@ -59,7 +59,7 @@ void loop() {
   delay(2000); // 2 segundos
 }
 ```
-### Ejercicio n° 3 Arduino: "Led intermitente"
+### Ejercicio n° 3 Arduino: Led Intermitente
 
 ```js
 void setup() {  // Configuración inicial (ej: pines como entrada/salida)
@@ -78,7 +78,7 @@ void loop() {   // Se repite infinitamente
   //delay(1000);  
 }
 ```
-### Ejercicio n° 4 Arduino: "Led pulsador"
+### Ejercicio n° 4 Arduino: Led Pulsador
 
 ```js
 void setup() {
@@ -93,7 +93,7 @@ void loop() {
   }
 }
 ```
-### Ejercicio n° 5 Arduino: "Control pulsador"
+### Ejercicio n° 5 Arduino: Control Pulsador
 
 ```js
 void setup() {
