@@ -93,7 +93,7 @@ void loop() {
   }
 }
 ```
-### Ejercicio n° 5 Arduino: Control Pulsador
+### Ejercicio n° 5 Arduino: Potenciómetro
 
 ```js
 void setup() {
