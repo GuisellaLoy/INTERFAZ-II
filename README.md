@@ -102,6 +102,9 @@ void loop() {
   }
 }
 ```
+<img
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/ledpulsador.png" 
+width="1024" height="550" />
 ### Ejercicio n° 5 Arduino: Potenciómetro
 
 ```js
@@ -114,3 +117,6 @@ void loop() {
   analogWrite(9, brillo);               // Ajustar brillo
 }
 ```
+<img
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/potenciometro.png" 
+width="1024" height="550" />
