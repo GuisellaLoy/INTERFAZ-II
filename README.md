@@ -62,7 +62,7 @@ void loop() {
 ```
 <img
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/semaforo.png" 
-width="1024" height="550" />
+width="1495" height="820" />
 
 ### Ejercicio n° 3 Arduino: Led Intermitente
 
@@ -85,7 +85,7 @@ void loop() {   // Se repite infinitamente
 ```
 <img
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/ledintermitente.png" 
-width="1024" height="550" />
+width="1322" height="783" />
 
 ### Ejercicio n° 4 Arduino: Led Pulsador
 
@@ -104,7 +104,7 @@ void loop() {
 ```
 <img
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/ledpulsador.png" 
-width="1024" height="550" />
+width="1267" height="792" />
 ### Ejercicio n° 5 Arduino: Potenciómetro
 
 ```js
@@ -119,4 +119,4 @@ void loop() {
 ```
 <img
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/potenciometro.png" 
-width="1024" height="550" />
+width="1247" height="797" />
