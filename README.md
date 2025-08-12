@@ -83,6 +83,10 @@ void loop() {   // Se repite infinitamente
   //delay(1000);  
 }
 ```
+<img
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/ledintermitente.png" 
+width="1024" height="550" />
+
 ### Ejercicio n° 4 Arduino: Led Pulsador
 
 ```js
