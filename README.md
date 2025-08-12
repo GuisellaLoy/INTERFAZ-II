@@ -12,9 +12,9 @@ void loop() {
   // No es necesario poner nada en el loop para este ejemplo
 }
 ```
-<a 
-href="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/semaforo.png">
-Semáforo.</a>
+<img
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/semaforo.png" 
+width="1024" height="550" />
 
 ### Ejercicio n° 2 Arduino: Semáforo
 
