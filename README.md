@@ -12,10 +12,6 @@ void loop() {
   // No es necesario poner nada en el loop para este ejemplo
 }
 ```
-<img
-src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/semaforo.png" 
-width="1024" height="550" />
-
 ### Ejercicio n° 2 Arduino: Semáforo
 
 ```js
@@ -64,6 +60,10 @@ void loop() {
   delay(2000); // 2 segundos
 }
 ```
+<img
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/semaforo.png" 
+width="1024" height="550" />
+
 ### Ejercicio n° 3 Arduino: Led Intermitente
 
 ```js
