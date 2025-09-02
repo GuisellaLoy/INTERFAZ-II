@@ -121,7 +121,7 @@ void loop() {
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/potenciometro.png" 
 width="1247" height="797"/>
 
-### Ejercicio n° 6 Arduino: Semáforo arreglo
+### Ejercicio n° 6 Arduino: Semáforo Arreglado
 
 ```js
 // C++ code - Semáforo Autos y Peatones
@@ -230,7 +230,7 @@ void loop() {
 
 }
 ```
-### Ejercicio n° 8 Arduino Processing
+### Ejercicio n° 8 Arduino: Processing
 
 ```js
 import processing.serial.*;
@@ -285,7 +285,7 @@ void draw()
   fill(c,0,225);
 }
 ```
-### Ejercicio n° 9 Arduino Botón Pulsador
+### Ejercicio n° 9 Arduino: Botón Pulsador
 
 ```js
 int buttonPin = 2;  // Pin del botón
@@ -305,7 +305,7 @@ void loop() {
   }
 }
 ```
-### Ejercicio n° 10 Arduino Botón Processing
+### Ejercicio n° 10 Arduino: Botón Processing
 
 ```js
 import processing.serial.*;
