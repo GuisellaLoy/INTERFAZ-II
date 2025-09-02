@@ -176,3 +176,48 @@ void draw()
   fill(c,0,225);
 }
 ```
+### Ejercicio n° 9 Arduino Botón Processing
+
+```js
+import processing.serial.*;
+
+Serial myPort;
+ArrayList<PVector> circles; 
+
+void setup() {
+  size(1920, 1080);
+  background(100);
+  
+  // Ajusta el nombre del puerto según tu Arduino
+  println(Serial.list());
+  //myPort = new Serial(this, "/dev/cu.usbmodem1101", 9600);
+  myPort = new Serial(this, Serial.list()[0], 9600);
+  
+  circles = new ArrayList<PVector>();
+}
+
+void draw() {
+  //background(0);
+  
+  // Dibujar círculos almacenados
+  fill(0, 0, 0);
+  //noStroke();
+  stroke(0, 150, 155);
+  for (PVector c : circles) {
+    ellipse(c.x, c.y, 100, 5);
+  }
+  
+  // Revisar si llega algo de Arduino
+  if (myPort.available() > 0) {
+    String val = myPort.readStringUntil('\n');
+    if (val != null) {
+      val = trim(val);
+      if (val.equals("1")) {
+        // Cada vez que se aprieta el botón, agregar un círculo en posición aleatoria
+        circles.add(new PVector(random(width), random(height)));
+      }
+    }
+  }
+}
+
+
