@@ -119,7 +119,7 @@ void loop() {
 ```
 <img
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/potenciometro.png" 
-width="1247" height="797" 
+width="1247" height="797"/>
 
 ### Ejercicio n° 6 Arduino: Semáforo arreglo
 
