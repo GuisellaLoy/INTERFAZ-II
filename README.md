@@ -176,7 +176,27 @@ void draw()
   fill(c,0,225);
 }
 ```
-### Ejercicio n° 9 Arduino Botón Processing
+### Ejercicio n° 9 Arduino Botón Pulsador
+
+```js
+int buttonPin = 2;  // Pin del botón
+int buttonState = 0;
+
+void setup() {
+  pinMode(buttonPin, INPUT_PULLUP); // Botón con resistencia interna
+  Serial.begin(9600);
+}
+
+void loop() {
+  buttonState = digitalRead(buttonPin);
+
+  if (buttonState == HIGH) {   // Botón presionado
+    Serial.println(1);        // Enviar un "1" a Processing
+    delay(200);               // Evitar rebotes
+  }
+}
+```
+### Ejercicio n° 10 Arduino Botón Processing
 
 ```js
 import processing.serial.*;
