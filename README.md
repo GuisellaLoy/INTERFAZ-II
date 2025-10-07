@@ -722,5 +722,4 @@ void playTrack(int index) {
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/BotoneraEntrega.jpg" 
 width="1267" height="792" />
 
-}
 
