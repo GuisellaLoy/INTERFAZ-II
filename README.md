@@ -563,8 +563,7 @@ void playTrack(int index) {
   currentTrack = index;
 }
 ```
-```
-### Entrega n°1 de Arduino y Prcessing: Botonera
+### Entrega n°1 de Arduino y Prcessing: Botonera 
 
 ```js
 Código Arduino:
