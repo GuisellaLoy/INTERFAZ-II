@@ -718,7 +718,4 @@ void playTrack(int index) {
   currentTrack = index;
 }
 ```
-<img
-src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/BotoneraEntrega.jpg" 
-width="1267" height="792" />
 
