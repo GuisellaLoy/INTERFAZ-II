@@ -285,6 +285,10 @@ void draw()
   fill(c,0,225);
 }
 ```
+<img
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG-20251007-WA0009.jpg" 
+width="1495" height="820" />
+
 ### Ejercicio n° 9 Arduino: Botón Pulsador
 
 ```js
