@@ -718,4 +718,7 @@ void playTrack(int index) {
   currentTrack = index;
 }
 ```
+<img
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20251007_122726.jpg" 
+width="1495" height="820" />
 
