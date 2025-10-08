@@ -12,7 +12,65 @@ void loop() {
   // No es necesario poner nada en el loop para este ejemplo
 }
 ```
-### Ejercicio n° 2 Arduino: Semáforo
+### Ejercicio n° 2 Arduino: Led Parpadeante
+
+```js
+void setup() {  // Configuración inicial (ej: pines como entrada/salida)
+  pinMode(13, OUTPUT);  // Pin 13 como salida
+  pinMode(8, OUTPUT);
+}
+
+void loop() {   // Se repite infinitamente
+  digitalWrite(13, HIGH);  // Encender LED
+  delay(1000);             // Esperar 1 segundo
+  digitalWrite(13, LOW);   // Apagar LED
+  //delay(1000);             // Esperar 1 segundo
+  digitalWrite(8, HIGH);  
+  delay(1000);             
+  digitalWrite(8, LOW);   
+  //delay(1000);  
+}
+```
+<img
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/ledintermitente.png" 
+width="1322" height="783" />
+
+### Ejercicio n° 3 Arduino: Led Pulsador
+
+```js
+void setup() {
+  pinMode(2, INPUT);  // Botón como entrada
+  pinMode(13, OUTPUT);
+}
+void loop() {
+  if (digitalRead(2) == HIGH) {  // Si se presiona el botón
+    digitalWrite(13, HIGH);
+  } else {
+    digitalWrite(13, LOW);
+  }
+}
+```
+<img
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/ledpulsador.png" 
+width="1267" height="792" />
+
+### Ejercicio n° 4 Arduino: Potenciómetro
+
+```js
+void setup() {
+  pinMode(9, OUTPUT);  // Pin PWM (símbolo ~)
+}
+void loop() {
+  int valor = analogRead(A0);           // Leer potenciómetro (0-1023)
+  int brillo = map(valor, 0, 1023, 0, 255);  // Convertir a rango PWM
+  analogWrite(9, brillo);               // Ajustar brillo
+}
+```
+<img
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/potenciometro.png" 
+width="1247" height="797"/>
+
+### Ejercicio n° 5 Arduino: Semáforo
 
 ```js
 // C++ code - Semáforo Autos y Peatones
@@ -87,39 +145,8 @@ void loop() {   // Se repite infinitamente
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/ledintermitente.png" 
 width="1322" height="783" />
 
-### Ejercicio n° 4 Arduino: Led Pulsador
 
-```js
-void setup() {
-  pinMode(2, INPUT);  // Botón como entrada
-  pinMode(13, OUTPUT);
-}
-void loop() {
-  if (digitalRead(2) == HIGH) {  // Si se presiona el botón
-    digitalWrite(13, HIGH);
-  } else {
-    digitalWrite(13, LOW);
-  }
-}
-```
-<img
-src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/ledpulsador.png" 
-width="1267" height="792" />
-### Ejercicio n° 5 Arduino: Potenciómetro
 
-```js
-void setup() {
-  pinMode(9, OUTPUT);  // Pin PWM (símbolo ~)
-}
-void loop() {
-  int valor = analogRead(A0);           // Leer potenciómetro (0-1023)
-  int brillo = map(valor, 0, 1023, 0, 255);  // Convertir a rango PWM
-  analogWrite(9, brillo);               // Ajustar brillo
-}
-```
-<img
-src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/potenciometro.png" 
-width="1247" height="797"/>
 
 ### Ejercicio n° 6 Arduino: Semáforo Arreglado
 
