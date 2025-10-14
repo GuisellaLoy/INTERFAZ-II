@@ -888,3 +888,22 @@ void playTrack(int index) {
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20251007_122726.jpg" 
 width="1495" height="820" />
 
+### Ejercicio n° 14 Arduino: Sensor Distancia Visual
+
+```js
+// Definir el pin del sensor Sharp
+int sharpPin = A0;
+
+void setup() {
+  Serial.begin(9600); // Iniciar comunicación serial
+}
+
+void loop() {
+  int sensorValue = analogRead(sharpPin); // Leer valor del sensor
+  Serial.println(sensorValue); // Enviar valor a Processing
+  delay(100); // Esperar un momento
+}
+```
+<img
+src="" 
+width="1322" height="783" />
