@@ -1003,7 +1003,7 @@ void draw() {
 }
 ```
 <img
-src="" 
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/Captura%20de%20pantalla%202025-10-14%20121026.png" 
 width="1322" height="783" />
 
 ### Ejercicio n° 16 Arduino: Video Glitch
