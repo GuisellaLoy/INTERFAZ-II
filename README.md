@@ -1029,6 +1029,6 @@ void loop() {
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20251014_122726.jpg" 
 width="1322" height="783" />
 
-src="src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20251014_122726.jpg" 
-width="1322" height="783" />" 
-
+<img
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20251014_122726.jpg" 
+width="1322" height="783" />
