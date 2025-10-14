@@ -1,7 +1,7 @@
 # INTERFAZ II
 ## Página del curso: https://mauricixx.github.io/Interfaces/#led-intermitente-blink
 
-1.["Hola Mundo"](#void-setup) <br>
+1.["Hola Mundo"](#ejercicio-n-1-arduino-hola-mundo) <br>
 
 ### Ejercicio n° 1 Arduino: "Hola Mundo"
 ```js
