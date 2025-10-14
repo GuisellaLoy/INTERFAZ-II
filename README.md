@@ -952,5 +952,5 @@ void draw()
 }
 ```
 <img
-src="" 
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/PorccesingSensorDeMovimiento%20.png" 
 width="1322" height="783" />
