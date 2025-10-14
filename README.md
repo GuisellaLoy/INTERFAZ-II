@@ -5,6 +5,7 @@
 2.[Led Parpadeante](#ejercicio-n-2-arduino-led-parpadeante) <br>
 3.[Led Pulsador](#ejercicio-n-3-arduino-led-pulsador) <br>
 4.[Potenciómetro](#ejercicio-n-3-arduino-led-pulsador) <br>
+5.[Semáforo](#ejercicio-n-5-arduino-sem%C3%A1foro) <br>
 ### Ejercicio n° 1 Arduino: "Hola Mundo"
 ```js
 void setup() {
