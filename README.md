@@ -1005,3 +1005,26 @@ void draw() {
 <img
 src="" 
 width="1322" height="783" />
+
+### Ejercicio n° 16 Arduino: Video Glitch
+
+```js
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  int pot1 = analogRead(A0);  // Read first potentiometer
+  int pot2 = analogRead(A1);  // Read second potentiometer
+
+  // Send potentiometer values as comma-separated values
+  Serial.print(pot1);
+  Serial.print(",");
+  Serial.println(pot2);
+  
+  delay(50);  // Delay to reduce data rate
+}
+```
+<img
+src="" 
+width="1322" height="783" />
