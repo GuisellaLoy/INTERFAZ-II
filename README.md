@@ -1,7 +1,9 @@
 # INTERFAZ II
 ## Página del curso: https://mauricixx.github.io/Interfaces/#led-intermitente-blink
-### Ejercicio n° 1 Arduino: "Hola Mundo"
 
+1.["Hola Mundo"](#void-setup) <br>
+
+### Ejercicio n° 1 Arduino: "Hola Mundo"
 ```js
 void setup() {
   Serial.begin(9600); // Inicia la comunicación serie a 9600 bps
