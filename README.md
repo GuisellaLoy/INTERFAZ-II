@@ -1031,3 +1031,26 @@ width="1322" height="783" />
 
 <img
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/Captura%20de%20pantalla%202025-10-14%20122637.png" />
+
+### Ejercicio n° 17 Arduino: Sensor de Humedad
+
+```js
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  int pot1 = analogRead(A0);  // Read first potentiometer
+  int pot2 = analogRead(A1);  // Read second potentiometer
+
+  // Send potentiometer values as comma-separated values
+  Serial.print(pot1);
+  Serial.print(",");
+  Serial.println(pot2);
+  
+  delay(50);  // Delay to reduce data rate
+}
+```
+<img
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20251014_122726.jpg" 
+width="1322" height="783" />
