@@ -1059,3 +1059,22 @@ void loop() {
 <img
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20251014_130528.jpg" 
 width="1322" height="783" />
+
+### Ejercicio n° 18 Arduino: Cuerpo, Vídeo y Sensor Sharp
+
+```js
+// --- Sensor Sharp conectado al pin A0 ---
+int sensorPin = A0;
+int valor;
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  valor = analogRead(sensorPin);
+  Serial.println(valor);
+  delay(50); // envío cada 50 ms
+
+}
+```
