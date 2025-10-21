@@ -1079,7 +1079,7 @@ void loop() {
 }
 ```
 <img
-src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20251014_130528.jpg" 
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20251021_125207.jpg" 
 width="1322" height="783" />
 
 ### Ejercicio n° 19 Processing: Cuerpo, Vídeo y Sensor Sharp
