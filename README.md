@@ -1164,6 +1164,6 @@ void draw() {
 }
 ```
 <img
-src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20251014_130528.jpg" 
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/Captura%20de%20pantalla%202025-10-21%20125919.png" 
 width="1322" height="783" />
 
