@@ -671,7 +671,7 @@ void playTrack(int index) {
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20251007_122726.jpg" 
 width="1495" height="820" />
 
-### Ejercicio n° 14 Arduino: Sensor Distancia Visual
+### Ejercicio n° 11 Arduino: Sensor Distancia Visual
 
 ```js
 // Definir el pin del sensor Sharp
@@ -691,7 +691,7 @@ void loop() {
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20251014_113842.jpg" 
 width="1322" height="783" />
 
-### Ejercicio n° 15 Processing: Sensor Distancia Visual
+### Ejercicio n° 11 Processing: Sensor Distancia Visual
 
 ```js
 import processing.serial.*;
@@ -738,7 +738,7 @@ void draw()
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/PorccesingSensorDeMovimiento%20.png" 
 width="1322" height="783" />
 
-### Ejercicio n° 16 Processing: Video Ascii
+### Ejercicio n° 12 Processing: Video Ascii
 
 ```js
 import processing.video.*;
@@ -789,7 +789,7 @@ void draw() {
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/Captura%20de%20pantalla%202025-10-14%20121026.png" 
 width="1322" height="783" />
 
-### Ejercicio n° 16 Arduino: Video Glitch
+### Ejercicio n° 13 Arduino: Video Glitch
 
 ```js
 void setup() {
@@ -815,7 +815,7 @@ width="1322" height="783" />
 <img
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/Captura%20de%20pantalla%202025-10-14%20122637.png" />
 
-### Ejercicio n° 17 Arduino: Sensor de Humedad
+### Ejercicio n° 14 Arduino: Sensor de Humedad
 
 ```js
 void setup() {
@@ -838,7 +838,7 @@ void loop() {
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20251014_130528.jpg" 
 width="1322" height="783" />
 
-### Ejercicio n° 18 Arduino: Cuerpo, Vídeo y Sensor Sharp
+### Ejercicio n° 15 Arduino: Cuerpo, Vídeo y Sensor Sharp
 
 ```js
 // --- Sensor Sharp conectado al pin A0 ---
@@ -860,7 +860,7 @@ void loop() {
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20251021_125207.jpg" 
 width="1322" height="783" />
 
-### Ejercicio n° 19 Processing: Cuerpo, Vídeo y Sensor Sharp
+### Ejercicio n° 15 Processing: Cuerpo, Vídeo y Sensor Sharp
 
 ```js
 // --- Librerías necesarias ---
