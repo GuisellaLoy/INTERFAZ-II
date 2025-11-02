@@ -300,58 +300,67 @@ width="1495" height="820" />
 ```js
 import processing.serial.*;
 
-Serial myPort;  // Crear objeto de la clase Serial
-static String val;    // Datos recibidos desde el puerto serial
-int sensorVal = 0;
+Serial myPort;
+ArrayList<CircleData> circles; 
 
-void setup()
-{
-  background(0);
-  //fullScreen(P3D);
-   size(1080, 720);
-   noStroke();
-  noFill();
-  String portName = "COM3";// Cambia el número (en este caso) para que coincida con el puerto correspondiente conectado a tu Arduino.
-
+void setup() {
+  size(1200, 720);
+  background(#F0E1FA);
+  
+  // Ajusta el puerto según tu Arduino
+  println(Serial.list());
   //myPort = new Serial(this, "/dev/cu.usbmodem1101", 9600);
   myPort = new Serial(this, Serial.list()[0], 9600);
-
+  
+  circles = new ArrayList<CircleData>();
 }
 
-void draw()
-{
-  if ( myPort.available() > 0) {  // Si hay datos disponibles,
-  val = myPort.readStringUntil('\n');
-  try {
-   sensorVal = Integer.valueOf(val.trim());
+void draw() {
+  //background(0);
+  
+  // Dibujar todos los círculos guardados
+  //fill(0, 150, 255);
+  //noStroke();
+  stroke(241, 239, 232);
+  for (CircleData c : circles) {
+    fill(240, 213, 155);
+    ellipse(c.x, c.y, c.size*2, 200);
+    
+    fill(197, 156, 224);
+    ellipse(c.x, c.y, c.size*2, 100);
+    
   }
-  catch(Exception e) {
-  ;
+  
+  // Leer datos de Arduino
+  if (myPort.available() > 0) {
+    String val = myPort.readStringUntil('\n');
+    if (val != null) {
+      val = trim(val);
+      if (val.startsWith("BTN")) {
+        // Extraer el valor del potenciómetro
+        String[] parts = split(val, ',');
+        if (parts.length == 2) {
+          float potVal = float(parts[1]);
+          float circleSize = map(potVal, 0, 1023, 10, 100); // tamaño 10-100 px
+          circles.add(new CircleData(random(width), random(height), circleSize));
+        }
+      }
+    }
   }
-  println(sensorVal); // léelos y guárdalos en vals!
-  }  
-//background(0);
-  // Escala el valor de mouseX de 0 a 640 a un rango entre 0 y 175
-  float c = map(sensorVal, 0, width, 0, 400);
-  // Escala el valor de mouseX de 0 a 640 a un rango entre 40 y 300
-  float d = map(sensorVal, 0, width, 40,500);
-  fill(c,0,225);
-  ellipse(width/2, height/2, d, d);
-  fill( c,0,225);
-  ellipse(width/2, height/5, d, d);
-  fill(c,0,225);
-  ellipse(width/2, height/4, d, d);
-   fill(c,0,225);
-  ellipse(width/3, height/2, d, d);
-  fill(c,0,225);
-  ellipse(width/3, height/5, d, d);
-  fill(c,0,225);
-  ellipse(width/3, height/4, d, d);
-  fill(c,0,225);
+}
+
+// Clase para guardar datos de cada círculo
+class CircleData {
+  float x, y, size;
+  CircleData(float x, float y, float size) {
+    this.x = x;
+    this.y = y;
+    this.size = size;
+  }
 }
 ```
 <img
-src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG-20251007-WA0009.jpg" 
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/Arduino%2Bprocessing%2Bboton%2Bpulsador.png" 
 width="1495" height="820" />
 
 ### Ejercicio n° 9 Arduino: Función If + Else
