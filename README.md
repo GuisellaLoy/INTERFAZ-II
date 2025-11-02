@@ -6,7 +6,7 @@
 3.[Led Pulsador](#ejercicio-n-3-arduino-led-pulsador) <br>
 4.[Potenciómetro](#ejercicio-n-3-arduino-led-pulsador) <br>
 5.[Semáforo](#ejercicio-n-5-arduino-sem%C3%A1foro) <br>
-6.[Potenciómetro en Processing](#ejercicio-n-5-arduino-sem%C3%A1foro) <br>
+6.[Potenciómetro en Processing](#ejercicio-n-6-processing-potenciometro) <br>
 
 ### Ejercicio n° 1 Arduino: "Hola Mundo"
 ```js
