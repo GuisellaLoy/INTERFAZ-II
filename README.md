@@ -75,6 +75,10 @@ void loop() {
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/potenciometro.png" 
 width="1247" height="797"/>
 
+<img
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/BotonPulsador.png" 
+width="1247" height="797"/>
+
 ### Ejercicio n° 5 Arduino: Semáforo
 
 ```js
