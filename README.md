@@ -246,7 +246,7 @@ void loop() {
   }
 }
 ```
-### Ejercicio n° 7.2 Processing: Botón + Potenciador
+### Ejercicio n° 8 Processing: Botón + Potenciador
 
 ```js
 import processing.serial.*;
