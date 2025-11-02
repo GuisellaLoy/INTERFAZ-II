@@ -508,6 +508,10 @@ void loop() {
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/Captura%20de%20pantalla%202025-10-07%20131134.png" 
 width="1322" height="783" />
 
+<img
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20250930_133344.jpg" 
+width="500" height="700" />
+
 ### Ejercicio n° 13 Processing: Botonera
 
 ```js
