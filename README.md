@@ -858,7 +858,7 @@ void loop() {
 ```
 <img
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20251021_125207.jpg" 
-width="1100" height="783" />
+width="800" height="783" />
 
 ### Ejercicio n° 15 Processing: Cuerpo, Vídeo y Sensor Sharp
 
