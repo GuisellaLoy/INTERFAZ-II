@@ -6,7 +6,21 @@
 3.[Led Pulsador](#ejercicio-n-3-arduino-led-pulsador) <br>
 4.[Potenciómetro](#ejercicio-n-3-arduino-led-pulsador) <br>
 5.[Semáforo](#ejercicio-n-5-arduino-sem%C3%A1foro) <br>
-6.[Potenciómetro en Processing](#ejercicio-n-6-processing-potenciometro) <br>
+6.[Potenciómetro + Processing](#ejercicio-n-6-processing-potenciometro) <br>
+7.[Pulsador + Processing](#ejercicio-n-7-arduino-pulsador) <br>
+8.[Potenciómetro + Pulsador + Processing](e#ejercicio-n-8-processing-bot%C3%B3n--potenciador) <br>
+9.[Función If + Else](#ejercicio-n-9-arduino-funci%C3%B3n-if--else) <br>
+10.[Botonera](#ejercicio-n-10-arduino-botonera) <br>
+1-1.[Entrega n°1 Arduino + Processing + Botonera](#entrega-n1-de-arduino-y-prcessing-botonera) <br>
+11.[Sensor Distancia visual](#ejercicio-n-11-arduino-sensor-distancia-visual) <br>
+12.[Video Ascii](#ejercicio-n-12-processing-video-ascii) <br>
+13.[Video Glitch](#ejercicio-n-13-arduino-video-glitch) <br>
+14.[Sensor de Humedad](#ejercicio-n-14-arduino-sensor-de-humedad) <br>
+15.[Cuerpo + Video + Sensor Sharp](#ejercicio-n-15-arduino-cuerpo-v%C3%ADdeo-y-sensor-sharp) <br>
+16.[Promedio Imágenes]() <br>
+
+
+
 
 ### Ejercicio n° 1 Arduino: "Hola Mundo"
 ```js
@@ -528,7 +542,7 @@ width="1322" height="783" />
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20250930_133344.jpg" 
 width="500" height="700" />
 
-### Entrega n°1 de Arduino y Prcessing: Botonera 
+### Entrega n°1 de Arduino y Processing: Botonera 
 
 ```js
 Código Arduino:
@@ -964,7 +978,7 @@ void draw() {
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/Captura%20de%20pantalla%202025-10-21%20125919.png" 
 width="1322" height="783" />
 
-### Ejercicio n° 15 Processing: Promedio Imágenes
+### Ejercicio n° 16 Processing: Promedio Imágenes
 
 ```js
 import processing.serial.*;
