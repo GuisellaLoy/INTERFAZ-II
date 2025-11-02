@@ -42,7 +42,7 @@ width="1322" height="783" />
 
 <img
 src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/IMG_20250819_122017.jpg" 
-width="700" height="700" />
+width="500" height="700" />
 
 ### Ejercicio n° 3 Arduino: Led Pulsador
 
