@@ -256,7 +256,7 @@ ArrayList<PVector> circles;
 
 void setup() {
   size(1920, 1080);
-  background(100);
+  background(#E8DFCC);
   
   // Ajusta el nombre del puerto según tu Arduino
   println(Serial.list());
@@ -270,11 +270,12 @@ void draw() {
   //background(0);
   
   // Dibujar círculos almacenados
-  fill(0, 0, 0);
+  fill(169, 210, 242);
   //noStroke();
-  stroke(0, 150, 155);
+  stroke(252, 254, 255);
   for (PVector c : circles) {
-    ellipse(c.x, c.y, 100, 5);
+    ellipse(c.x, c.y, 100, 50);
+    ellipse(c.x, c.y, 50, 100);
   }
   
   // Revisar si llega algo de Arduino
@@ -290,6 +291,10 @@ void draw() {
   }
 }
 ```
+<img
+src="https://github.com/GuisellaLoy/INTERFAZ-II/blob/main/img/Arduino%2BProcessing%20pulsador.png" 
+width="1495" height="820" />
+
 ### Ejercicio n° 8 Arduino: Processing
 
 ```js
