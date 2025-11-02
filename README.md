@@ -152,7 +152,7 @@ void loop(){
 delay(50);
 }
 ```
-### Ejercicio n° 6.2 Processing: Potenciometro
+### Ejercicio n° 6 Processing: Potenciometro
 
 ```js
 import processing.serial.*;
