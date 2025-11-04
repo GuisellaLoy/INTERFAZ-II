@@ -18,9 +18,7 @@
 14.[Sensor de Humedad](#ejercicio-n-14-arduino-sensor-de-humedad) <br>
 15.[Cuerpo + Video + Sensor Sharp](#ejercicio-n-15-arduino-cuerpo-v%C3%ADdeo-y-sensor-sharp) <br>
 16.[Promedio Imágenes](#ejercicio-n-16-processing-promedio-im%C3%A1genes) <br>
-1-2.[Entrega n°2 Arduino + Processing + Botonera](#ejercicio-n-16-processing-promedio-im%C3%A1genes) <br>
-
-
+1-2.[Entrega n°2 Arduino + Processing + Botonera](#entrega-n2-de-arduino-y-processing-chromas) <br>
 
 ### Ejercicio n° 1 Arduino: "Hola Mundo"
 ```js
