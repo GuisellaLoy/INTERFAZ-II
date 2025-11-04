@@ -11,7 +11,7 @@
 8.[Potenciómetro + Pulsador + Processing](e#ejercicio-n-8-processing-bot%C3%B3n--potenciador) <br>
 9.[Función If + Else](#ejercicio-n-9-arduino-funci%C3%B3n-if--else) <br>
 10.[Botonera](#ejercicio-n-10-arduino-botonera) <br>
-1-1.[Entrega n°1 Arduino + Processing + Botonera](#entrega-n1-de-arduino-y-prcessing-botonera) <br>
+1-1.[Entrega n°1 Arduino + Processing + Botonera](#entrega-n1-de-arduino-y-processing-botonera) <br>
 11.[Sensor Distancia visual](#ejercicio-n-11-arduino-sensor-distancia-visual) <br>
 12.[Video Ascii](#ejercicio-n-12-processing-video-ascii) <br>
 13.[Video Glitch](#ejercicio-n-13-arduino-video-glitch) <br>
